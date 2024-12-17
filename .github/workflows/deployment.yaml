@@ -3,10 +3,8 @@ name: Build and Deploy FrontendApp to ECS
 
 on:
   push:
-    paths:
-      - "frontend/**"
     branches:
-      - feat/video-cicd-ecs
+      - main
 
 env:
   # Setting an environment variable with the value of a configuration variable
